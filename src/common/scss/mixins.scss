@@ -1,0 +1,6 @@
+@mixin ellipsis($columns) {
+          display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $columns; // 限制快级元素的文本行数
+        overflow: hidden;
+}
